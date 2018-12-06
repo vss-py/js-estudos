@@ -4,6 +4,9 @@
   "description": "Apenas para aprendizado",
   "main": "index.js",
   "scripts": {
+    "victor": "echo 'Você é foda!'",
+    "lint": "node_modules/.bin/eslint src/*.js",
+    "prepush": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/vss-py/js-estudos/issues"
   },
-  "homepage": "https://github.com/vss-py/js-estudos#readme"
+  "homepage": "https://github.com/vss-py/js-estudos#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.2.0"
+  }
 }
