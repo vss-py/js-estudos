@@ -1,0 +1,23 @@
+{
+  "name": "javascript-tdd",
+  "version": "1.0.0",
+  "description": "Apenas para aprendizado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vss-py/js-estudos.git"
+  },
+  "keywords": [
+    "js",
+    "tdd"
+  ],
+  "author": "Victor Santos <victor.santos.cd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vss-py/js-estudos/issues"
+  },
+  "homepage": "https://github.com/vss-py/js-estudos#readme"
+}
